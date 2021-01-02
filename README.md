@@ -2,9 +2,10 @@
 Frontend learning / playground, some exercises.  
 (C) by Dmitrii Gusev, 2020-2021  
 
-## Useful Resources
-  - [Habr Article #1](https://habr.com/ru/company/mailru/blog/340922/)
-  - [Habr Article #2](https://habr.com/ru/post/350886/)
+## Useful Resources / Articles
+  - [Объясняем современный JavaScript динозавру](https://habr.com/ru/company/mailru/blog/340922/)
+  - [Простой статический сайт на Webpack 4](https://habr.com/ru/post/350886/)
+  - [Example Repository](https://github.com/Harrix/static-site-webpack-habr)
   
   
 ## Project Modules
