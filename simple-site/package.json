@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Simple HTML site with some JS, just a learning...",
   "main": "src/js/index.js",
+  "private": true,
   "scripts": {
     "dev": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress --mode production",
+    "build": "webpack --mode production && prettier --print-width=120 --parser html --write dist/*.html",
     "watch": "webpack --progress --mode development --watch",
     "start": "webpack-dev-server --mode development --open",
     "clear": "del-cli dist"
@@ -16,6 +17,7 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
     "mini-css-extract-plugin": "^1.3.3",
     "moment": "^2.29.1",
     "popper.js": "^1.16.1"
@@ -25,10 +27,14 @@
     "babel-loader": "^8.2.2",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
     "del-cli": "^3.0.1",
+    "html-webpack-plugin": "^4.5.0",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.0",
+    "terser-webpack-plugin": "^5.0.3",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
