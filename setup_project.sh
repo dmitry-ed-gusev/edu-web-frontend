@@ -4,7 +4,7 @@
 #   Init script for JS / FrontEnd project (simple)
 #
 #   Created:  Dmitrii Gusev, 01.01.2021
-#   Modified: Dmitrii Gusev, 02.01.2021
+#   Modified: Dmitrii Gusev, 03.01.2021
 #
 ###############################################################################
 
@@ -30,20 +30,20 @@ npm init
 # -- install webpack (the latest) + CLI + dev server and save it as development dependency
 npm install webpack webpack-cli webpack-dev-server clean-webpack-plugin del-cli --save-dev
 
-# -- install additional webpack modules - development dependencies
+# -- install additional webpack modules - copy/html plugins (development)
 npm install copy-webpack-plugin html-webpack-plugin --save-dev
 
-# -- install babel - JavaScript compiler - development dependency
+# -- install additional webpack modules - style/css loaders
+npm install --save-dev style-loader css-loader mini-css-extract-plugin
+
+# -- CSS minimizers / processors
+npm install --save-dev postcss-loader postcss sass-loader sass less less-loader node-sass
+
+# -- install babel - JavaScript transpiler - development dependency
 npm install babel-core babel-preset-env babel-loader --save-dev
 
 # -- install jquery (required by most of sites) - project dependency
 npm install jquery --save
-
-# -- CSS tools
-#npm install node-sass sass-loader css-loader mini-css-extract-plugin --save-dev
-
-# -- install bootstrap and required dependencies
-#npm install bootstrap popper.js --save
 
 # -- go back to the root directory
 cd ..
