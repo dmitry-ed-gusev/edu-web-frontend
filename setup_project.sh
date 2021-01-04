@@ -34,10 +34,13 @@ npm install webpack webpack-cli webpack-dev-server clean-webpack-plugin del-cli 
 npm install copy-webpack-plugin html-webpack-plugin --save-dev
 
 # -- install additional webpack modules - style/css loaders
-npm install --save-dev style-loader css-loader mini-css-extract-plugin
+npm install --save-dev style-loader css-loader mini-css-extract-plugin raw-loader
 
 # -- CSS minimizers / processors
 npm install --save-dev postcss-loader postcss sass-loader sass less less-loader node-sass
+
+# --
+npm install --save-dev file-loader ref-loader extract-loader
 
 # -- install babel - JavaScript transpiler - development dependency
 npm install babel-core babel-preset-env babel-loader --save-dev
