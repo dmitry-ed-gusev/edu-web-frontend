@@ -6,6 +6,9 @@ Frontend learning / playground, some exercises.
   - [Объясняем современный JavaScript динозавру](https://habr.com/ru/company/mailru/blog/340922/)
   - [Простой статический сайт на Webpack 4](https://habr.com/ru/post/350886/)
   - [Example Repository](https://github.com/Harrix/static-site-webpack-habr)
+  - [Введение в React](https://habr.com/ru/post/461541/)
+  - [React.js: понятное руководство для начинающих](https://habr.com/ru/company/ruvds/blog/428077/)
+  - [Учебный курс по React, часть 1: обзор курса, причины популярности React, ReactDOM и JSX](https://habr.com/ru/company/ruvds/blog/432636/)
   
   
 ## Project Modules
