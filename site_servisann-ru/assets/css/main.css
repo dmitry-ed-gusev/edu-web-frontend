@@ -1678,7 +1678,7 @@ input, select, textarea {
 		display: inline-block;
 		color: #fff !important;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 600; /* original: 700*/
 		border: 0;
 		outline: 0;
 		cursor: pointer;
@@ -1715,7 +1715,7 @@ input, select, textarea {
 		input[type="reset"].large,
 		button.large,
 		.button.large {
-			font-size: 1.5em;
+			font-size: 1.3em;
 			letter-spacing: -0.025em;
 		}
 
