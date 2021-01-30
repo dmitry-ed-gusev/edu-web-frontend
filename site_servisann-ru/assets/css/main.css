@@ -1754,6 +1754,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			text-align: left; /* added by Dmitrii Gusev on 30.01.2021 */
 		}
 
 	ol {
