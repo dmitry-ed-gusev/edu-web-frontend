@@ -1,6 +1,9 @@
 # Intellij IDEA files
 .idea
 
+# Various temporary files
+.DS_Store
+
 # Logs
 logs
 *.log
