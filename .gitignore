@@ -64,3 +64,5 @@ typings/
 # dependencies
 /.pnp
 .pnp.js
+
+.pytest_cache/
